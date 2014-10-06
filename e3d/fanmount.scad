@@ -7,7 +7,6 @@ include <keystone.scad>;
 module fan_mount_body()
 {
 	union(){
-       translate([0, 0, -10]) cube([10,
        translate([ 0,0,-5]) fan_mount(size=30,thick=5);
        translate([10,30,-5])  cube([12,45,3.9]);
        translate([22,65.1,18]) rotate([90,180,180]) keystone();
