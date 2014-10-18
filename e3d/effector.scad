@@ -33,19 +33,21 @@ module enhancement_cuts()
 
 module ear_body(xf)
 {  
-   %translate([xf * -22,23,8]) rotate([45,180,0]) boltHole(5, length=8);
-   %translate([xf * -22,20,5]) rotate([45,180,2]) nutHole(5);
+   %translate([xf * -22,24,9]) rotate([45,180,0]) boltHole(3, length=8);
+   %translate([xf * -22,20,5]) rotate([45,180,0]) nutHole(3);
   // %translate([xf * -22,offset-7, 0]) rotate([-45,0,0]) cylinder(r=5.5,h=8);
    
    translate([xf * -22,offset-2, 5]) rotate([-45,0,0]) cylinder(r=5.5,h=7);
-   
+ //  %translate([xf * -22,32,17]) rotate([45,180,0]) cylinder(r=1.6,h=20);
 }
 
 module ear_cuts(xf)
 {
-    translate([xf * -22,23,8]) rotate([45,180,0]) boltHole(5, length=8);
-    translate([xf * -22,20,5]) rotate([45,180,2]) nutHole(5);
-   // translate([xf * -22,offset-7, 0]) rotate([-45,0,0]) cylinder(r=5.5,h=6);
+      
+      translate([xf * -22,21,6]) rotate([45,180,0]) nutHole(3);
+      translate([xf * -22,25,10]) rotate([45,180,0]) cylinder(r=5.1,h=2);
+      translate([xf * -22,32,17]) rotate([45,180,0]) cylinder(r=1.6,h=20); //boltHole(3, length=8);
+    translate([xf * -22,offset-7, 0]) rotate([-45,0,0]) cylinder(r=5.5,h=7);
    // translate([xf * -22,23,4]) rotate([45,180,0]) cylinder(r=5,h=10);
     
    // translate([xf * -22,13,-4]) sphere(r=5);
@@ -82,7 +84,7 @@ module earlets(p1,p2)
          translate([-1.4,34,-5]) rotate([0,0,p2-30]) cube([23,3,7]);
          translate([-1.4,34,2]) rotate([0,0,p2-30]) cube([8,3,5]);
          translate([-9,30,-5]) rotate([0,0,p2-30]) halfcylinder(4,10);
-		 translate([9,30,5]) rotate([180,0,p2-30]) halfcylinder(4,10);
+	     translate([9,30,5]) rotate([180,0,p2-30]) halfcylinder(4,10);
          translate([10,34,-2]) rotate([180,0,p2-30]) cube([8,20,3]);
          rotate([0,0,p1])   { new_ears(-1);}
          rotate([0,0,p2])   { new_ears(1); }
