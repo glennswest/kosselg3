@@ -1,0 +1,804 @@
+;Steps per unit:
+M92 X200.00000 Y200.00000 Z200.00000
+;Acceleration mm/sec^2:
+M204 S1000.00000 Z0.00000
+;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
+M205 X0.05000 Z-1.00000 S0.00000
+;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+M203 X500.00000 Y200.00000 Z200.00000 A500.00000 B200.00000 C200.00000
+;Optional arm solution specific settings:
+M665 L290.0000 R171.3250
+;Motor currents:
+M907 X1.50000 Y1.50000 Z1.50000 E1.80000 
+;Home offset (mm):
+M206 X0.00 Y0.00 Z0.00
+;Trim (mm):
+M666 X-2.717 Y-4.621 Z-1.371
+;Max Z
+M665 Z211.830
+;E Steps per mm:
+M92 E980.0000
+;E Filament diameter:
+M200 D0.0000
+;E retract length, feedrate, zlift length, feedrate:
+M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000
+;E retract recover length, feedrate:
+M208 S0.0000 F480.0000
+;E acceleration mm/sec^2:
+M204 E500.0000
+;PID settings:
+M301 S0 P10.0000 I0.3000 D200.0000
+;PID settings:
+M301 S1 P10.0000 I0.3000 D200.0000
+;Steps per unit:
+M92 X200.00000 Y200.00000 Z200.00000
+;Acceleration mm/sec^2:
+M204 S1000.00000 Z0.00000
+;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
+M205 X0.05000 Z-1.00000 S0.00000
+;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+M203 X500.00000 Y200.00000 Z200.00000 A500.00000 B200.00000 C200.00000
+;Optional arm solution specific settings:
+M665 L290.0000 R171.3250
+;Motor currents:
+M907 X1.50000 Y1.50000 Z1.50000 E1.80000 
+;Home offset (mm):
+M206 X0.00 Y0.00 Z0.00
+;Trim (mm):
+M666 X-2.717 Y-4.621 Z-1.371
+;Max Z
+M665 Z212.830
+;E Steps per mm:
+M92 E980.0000
+;E Filament diameter:
+M200 D1.7500
+;E retract length, feedrate, zlift length, feedrate:
+M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000
+;E retract recover length, feedrate:
+M208 S0.0000 F480.0000
+;E acceleration mm/sec^2:
+M204 E500.0000
+;PID settings:
+M301 S0 P10.0000 I0.3000 D200.0000
+;PID settings:
+M301 S1 P10.0000 I0.3000 D200.0000
+;Steps per unit:
+M92 X200.00000 Y200.00000 Z200.00000
+;Acceleration mm/sec^2:
+M204 S1000.00000 Z0.00000
+;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
+M205 X0.05000 Z-1.00000 S0.00000
+;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+M203 X500.00000 Y200.00000 Z200.00000 A500.00000 B200.00000 C200.00000
+;Optional arm solution specific settings:
+M665 L290.0000 R171.3250
+;Motor currents:
+M907 X1.50000 Y1.50000 Z1.50000 E1.80000 
+;Home offset (mm):
+M206 X0.00 Y0.00 Z0.00
+;Trim (mm):
+M666 X-2.717 Y-4.621 Z-1.371
+;Max Z
+M665 Z212.430
+;E Steps per mm:
+M92 E980.0000
+;E Filament diameter:
+M200 D0.0000
+;E retract length, feedrate, zlift length, feedrate:
+M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000
+;E retract recover length, feedrate:
+M208 S0.0000 F480.0000
+;E acceleration mm/sec^2:
+M204 E500.0000
+;PID settings:
+M301 S0 P10.0000 I0.3000 D200.0000
+;PID settings:
+M301 S1 P10.0000 I0.3000 D200.0000
+;Steps per unit:
+M92 X200.00000 Y200.00000 Z200.00000
+;Acceleration mm/sec^2:
+M204 S1000.00000 Z0.00000
+;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
+M205 X0.05000 Z-1.00000 S0.00000
+;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+M203 X500.00000 Y200.00000 Z200.00000 A500.00000 B200.00000 C200.00000
+;Optional arm solution specific settings:
+M665 L290.0000 R175.0000
+;Motor currents:
+M907 X1.50000 Y1.50000 Z1.50000 E1.80000 
+;Home offset (mm):
+M206 X0.00 Y0.00 Z0.00
+;Trim (mm):
+M666 X-2.717 Y-4.621 Z-1.371
+;Max Z
+M665 Z212.430
+;E Steps per mm:
+M92 E980.0000
+;E Filament diameter:
+M200 D0.0000
+;E retract length, feedrate, zlift length, feedrate:
+M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000
+;E retract recover length, feedrate:
+M208 S0.0000 F480.0000
+;E acceleration mm/sec^2:
+M204 E500.0000
+;PID settings:
+M301 S0 P10.0000 I0.3000 D200.0000
+;PID settings:
+M301 S1 P10.0000 I0.3000 D200.0000
+;Steps per unit:
+M92 X200.00000 Y200.00000 Z200.00000
+;Acceleration mm/sec^2:
+M204 S1000.00000 Z0.00000
+;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
+M205 X0.05000 Z-1.00000 S0.00000
+;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+M203 X500.00000 Y200.00000 Z200.00000 A500.00000 B200.00000 C200.00000
+;Optional arm solution specific settings:
+M665 L290.0000 R170.0000
+;Motor currents:
+M907 X1.50000 Y1.50000 Z1.50000 E1.80000 
+;Home offset (mm):
+M206 X0.00 Y0.00 Z0.00
+;Trim (mm):
+M666 X-2.717 Y-4.621 Z-1.371
+;Max Z
+M665 Z212.430
+;E Steps per mm:
+M92 E980.0000
+;E Filament diameter:
+M200 D0.0000
+;E retract length, feedrate, zlift length, feedrate:
+M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000
+;E retract recover length, feedrate:
+M208 S0.0000 F480.0000
+;E acceleration mm/sec^2:
+M204 E500.0000
+;PID settings:
+M301 S0 P10.0000 I0.3000 D200.0000
+;PID settings:
+M301 S1 P10.0000 I0.3000 D200.0000
+;Steps per unit:
+M92 X200.00000 Y200.00000 Z200.00000
+;Acceleration mm/sec^2:
+M204 S1000.00000 Z0.00000
+;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
+M205 X0.05000 Z-1.00000 S0.00000
+;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+M203 X500.00000 Y200.00000 Z200.00000 A500.00000 B200.00000 C200.00000
+;Optional arm solution specific settings:
+M665 L290.0000 R170.0000
+;Motor currents:
+M907 X1.50000 Y1.50000 Z1.50000 E1.80000 
+;Home offset (mm):
+M206 X0.00 Y0.00 Z0.00
+;Trim (mm):
+M666 X-2.717 Y-4.621 Z-1.371
+;Max Z
+M665 Z212.430
+;E Steps per mm:
+M92 E980.0000
+;E Filament diameter:
+M200 D0.0000
+;E retract length, feedrate, zlift length, feedrate:
+M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000
+;E retract recover length, feedrate:
+M208 S0.0000 F480.0000
+;E acceleration mm/sec^2:
+M204 E500.0000
+;PID settings:
+M301 S0 P10.0000 I0.3000 D200.0000
+;PID settings:
+M301 S1 P10.0000 I0.3000 D200.0000
+;Steps per unit:
+M92 X200.00000 Y200.00000 Z200.00000
+;Acceleration mm/sec^2:
+M204 S1000.00000 Z0.00000
+;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
+M205 X0.05000 Z-1.00000 S0.00000
+;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+M203 X500.00000 Y200.00000 Z200.00000 A500.00000 B200.00000 C200.00000
+;Optional arm solution specific settings:
+M665 L290.0000 R170.0000
+;Motor currents:
+M907 X1.50000 Y1.50000 Z1.50000 E1.80000 
+;Home offset (mm):
+M206 X0.00 Y0.00 Z0.00
+;Trim (mm):
+M666 X-2.717 Y-4.621 Z-1.371
+;Max Z
+M665 Z212.430
+;E Steps per mm:
+M92 E980.0000
+;E Filament diameter:
+M200 D0.0000
+;E retract length, feedrate, zlift length, feedrate:
+M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000
+;E retract recover length, feedrate:
+M208 S0.0000 F480.0000
+;E acceleration mm/sec^2:
+M204 E500.0000
+;PID settings:
+M301 S0 P10.0000 I0.3000 D200.0000
+;PID settings:
+M301 S1 P10.0000 I0.3000 D200.0000
+;Steps per unit:
+M92 X200.00000 Y200.00000 Z200.00000
+;Acceleration mm/sec^2:
+M204 S1000.00000 Z0.00000
+;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
+M205 X0.05000 Z-1.00000 S0.00000
+;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+M203 X500.00000 Y200.00000 Z200.00000 A500.00000 B200.00000 C200.00000
+;Optional arm solution specific settings:
+M665 L290.0000 R167.0000
+;Motor currents:
+M907 X1.50000 Y1.50000 Z1.50000 E1.80000 
+;Home offset (mm):
+M206 X0.00 Y0.00 Z0.00
+;Trim (mm):
+M666 X-2.717 Y-4.621 Z-1.371
+;Max Z
+M665 Z212.430
+;E Steps per mm:
+M92 E980.0000
+;E Filament diameter:
+M200 D0.0000
+;E retract length, feedrate, zlift length, feedrate:
+M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000
+;E retract recover length, feedrate:
+M208 S0.0000 F480.0000
+;E acceleration mm/sec^2:
+M204 E500.0000
+;PID settings:
+M301 S0 P10.0000 I0.3000 D200.0000
+;PID settings:
+M301 S1 P10.0000 I0.3000 D200.0000
+;Steps per unit:
+M92 X200.00000 Y200.00000 Z200.00000
+;Acceleration mm/sec^2:
+M204 S1000.00000 Z0.00000
+;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
+M205 X0.05000 Z-1.00000 S0.00000
+;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+M203 X500.00000 Y200.00000 Z200.00000 A500.00000 B200.00000 C200.00000
+;Motor currents:
+M907 X1.50000 Y1.50000 Z1.50000 E1.80000 
+;Home offset (mm):
+M206 X0.00 Y0.00 Z0.00
+;Trim (mm):
+M666 X-2.717 Y-4.621 Z-1.371
+;Max Z
+M665 Z212.430
+;E Steps per mm:
+M92 E980.0000
+;E Filament diameter:
+M200 D0.0000
+;E retract length, feedrate, zlift length, feedrate:
+M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000
+;E retract recover length, feedrate:
+M208 S0.0000 F480.0000
+;E acceleration mm/sec^2:
+M204 E500.0000
+;PID settings:
+M301 S0 P10.0000 I0.3000 D200.0000
+;PID settings:
+M301 S1 P10.0000 I0.3000 D200.0000
+;Steps per unit:
+M92 X200.00000 Y200.00000 Z200.00000
+;Acceleration mm/sec^2:
+M204 S1000.00000 Z0.00000
+;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
+M205 X0.05000 Z-1.00000 S0.00000
+;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+M203 X500.00000 Y200.00000 Z200.00000 A500.00000 B200.00000 C200.00000
+;Optional arm solution specific settings:
+M665 L290.0000 R166.0000
+;Motor currents:
+M907 X1.50000 Y1.50000 Z1.50000 E1.80000 
+;Home offset (mm):
+M206 X0.00 Y0.00 Z0.00
+;Trim (mm):
+M666 X-2.717 Y-4.621 Z-1.371
+;Max Z
+M665 Z212.430
+;E Steps per mm:
+M92 E980.0000
+;E Filament diameter:
+M200 D0.0000
+;E retract length, feedrate, zlift length, feedrate:
+M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000
+;E retract recover length, feedrate:
+M208 S0.0000 F480.0000
+;E acceleration mm/sec^2:
+M204 E500.0000
+;PID settings:
+M301 S0 P10.0000 I0.3000 D200.0000
+;PID settings:
+M301 S1 P10.0000 I0.3000 D200.0000
+;Steps per unit:
+M92 X200.00000 Y200.00000 Z200.00000
+;Acceleration mm/sec^2:
+M204 S1000.00000 Z0.00000
+;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
+M205 X0.05000 Z-1.00000 S0.00000
+;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+M203 X500.00000 Y200.00000 Z200.00000 A500.00000 B200.00000 C200.00000
+;Optional arm solution specific settings:
+M665 L310.0000 R166.0000
+;Motor currents:
+M907 X1.50000 Y1.50000 Z1.50000 E1.80000 
+;Home offset (mm):
+M206 X0.00 Y0.00 Z0.00
+;Trim (mm):
+M666 X-2.717 Y-4.621 Z-1.371
+;Max Z
+M665 Z212.430
+;E Steps per mm:
+M92 E980.0000
+;E Filament diameter:
+M200 D0.0000
+;E retract length, feedrate, zlift length, feedrate:
+M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000
+;E retract recover length, feedrate:
+M208 S0.0000 F480.0000
+;E acceleration mm/sec^2:
+M204 E500.0000
+;PID settings:
+M301 S0 P10.0000 I0.3000 D200.0000
+;PID settings:
+M301 S1 P10.0000 I0.3000 D200.0000
+;Steps per unit:
+M92 X200.00000 Y200.00000 Z200.00000
+;Acceleration mm/sec^2:
+M204 S1000.00000 Z0.00000
+;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
+M205 X0.05000 Z-1.00000 S0.00000
+;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+M203 X500.00000 Y200.00000 Z200.00000 A500.00000 B200.00000 C200.00000
+;Optional arm solution specific settings:
+M665 L310.0000 R168.0000
+;Motor currents:
+M907 X1.50000 Y1.50000 Z1.50000 E1.80000 
+;Home offset (mm):
+M206 X0.00 Y0.00 Z0.00
+;Trim (mm):
+M666 X-2.717 Y-4.621 Z-1.371
+;Max Z
+M665 Z212.430
+;E Steps per mm:
+M92 E980.0000
+;E Filament diameter:
+M200 D0.0000
+;E retract length, feedrate, zlift length, feedrate:
+M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000
+;E retract recover length, feedrate:
+M208 S0.0000 F480.0000
+;E acceleration mm/sec^2:
+M204 E500.0000
+;PID settings:
+M301 S0 P10.0000 I0.3000 D200.0000
+;PID settings:
+M301 S1 P10.0000 I0.3000 D200.0000
+;Steps per unit:
+M92 X200.00000 Y200.00000 Z200.00000
+;Acceleration mm/sec^2:
+M204 S1000.00000 Z0.00000
+;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
+M205 X0.05000 Z-1.00000 S0.00000
+;Steps per unit:
+M92 X200.00000 Y200.00000 Z200.00000
+;Acceleration mm/sec^2:
+M204 S1000.00000 Z0.00000
+;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
+M205 X0.05000 Z-1.00000 S0.00000
+;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+M203 X500.00000 Y200.00000 Z200.00000 A500.00000 B200.00000 C200.00000
+;Optional arm solution specific settings:
+M665 L310.0000 R169.0000
+;Motor currents:
+M907 X1.50000 Y1.50000 Z1.50000 E1.80000 
+;Home offset (mm):
+M206 X0.00 Y0.00 Z0.00
+;Trim (mm):
+M666 X-2.717 Y-4.621 Z-1.371
+;Max Z
+M665 Z212.430
+;E Steps per mm:
+M92 E980.0000
+;E Filament diameter:
+M200 D0.0000
+;E retract length, feedrate, zlift length, feedrate:
+M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000
+;E retract recover length, feedrate:
+M208 S0.0000 F480.0000
+;E acceleration mm/sec^2:
+M204 E500.0000
+;PID settings:
+M301 S0 P10.0000 I0.3000 D200.0000
+;PID settings:
+M301 S1 P10.0000 I0.3000 D200.0000
+;Steps per unit:
+M92 X200.00000 Y200.00000 Z200.00000
+;Acceleration mm/sec^2:
+M204 S1000.00000 Z0.00000
+;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
+M205 X0.05000 Z-1.00000 S0.00000
+;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+M203 X500.00000 Y200.00000 Z200.00000 A500.00000 B200.00000 C200.00000
+;Optional arm solution specific settings:
+M665 L310.0000 R171.0000
+;Motor currents:
+M907 X1.50000 Y1.50000 Z1.50000 E1.80000 
+;Home offset (mm):
+M206 X0.00 Y0.00 Z0.00
+;Trim (mm):
+M666 X-2.717 Y-4.621 Z-1.371
+;Max Z
+M665 Z212.430
+;E Steps per mm:
+M92 E980.0000
+;E Filament diameter:
+M200 D0.0000
+;E retract length, feedrate, zlift length, feedrate:
+M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000
+;E retract recover length, feedrate:
+M208 S0.0000 F480.0000
+;E acceleration mm/sec^2:
+M204 E500.0000
+;PID settings:
+M301 S0 P10.0000 I0.3000 D200.0000
+;PID settings:
+M301 S1 P10.0000 I0.3000 D200.0000
+;Steps per unit:
+M92 X200.00000 Y200.00000 Z200.00000
+;Acceleration mm/sec^2:
+M204 S1000.00000 Z0.00000
+;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
+M205 X0.05000 Z-1.00000 S0.00000
+;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+M203 X500.00000 Y200.00000 Z200.00000 A500.00000 B200.00000 C200.00000
+;Optional arm solution specific settings:
+M665 L310.0000 R171.0000
+;Motor currents:
+M907 X1.50000 Y1.50000 Z1.50000 E1.80000 
+;Home offset (mm):
+M206 X0.00 Y0.00 Z0.00
+;Trim (mm):
+M666 X-2.717 Y-4.621 Z-1.371
+;Max Z
+M665 Z212.530
+;E Steps per mm:
+M92 E980.0000
+;E Filament diameter:
+M200 D0.0000
+;E retract length, feedrate, zlift length, feedrate:
+M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000
+;E retract recover length, feedrate:
+M208 S0.0000 F480.0000
+;E acceleration mm/sec^2:
+M204 E500.0000
+;PID settings:
+M301 S0 P10.0000 I0.3000 D200.0000
+;PID settings:
+M301 S1 P10.0000 I0.3000 D200.0000
+;Steps per unit:
+M92 X200.00000 Y200.00000 Z200.00000
+;Acceleration mm/sec^2:
+M204 S1000.00000 Z0.00000
+;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
+M205 X0.05000 Z-1.00000 S0.00000
+;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+M203 X500.00000 Y200.00000 Z200.00000 A500.00000 B200.00000 C200.00000
+;Optional arm solution specific settings:
+M665 L310.0000 R171.0000
+;Motor currents:
+M907 X1.50000 Y1.50000 Z1.50000 E1.80000 
+;Home offset (mm):
+M206 X0.00 Y0.00 Z0.00
+;Trim (mm):
+M666 X-2.717 Y-4.621 Z-1.371
+;Max Z
+M665 Z212.630
+;E Steps per mm:
+M92 E980.0000
+;E Filament diameter:
+M200 D0.0000
+;E retract length, feedrate, zlift length, feedrate:
+M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000
+;E retract recover length, feedrate:
+M208 S0.0000 F480.0000
+;E acceleration mm/sec^2:
+M204 E500.0000
+;PID settings:
+M301 S0 P10.0000 I0.3000 D200.0000
+;PID settings:
+M301 S1 P10.0000 I0.3000 D200.0000
+;Steps per unit:
+M92 X200.00000 Y200.00000 Z200.00000
+;Acceleration mm/sec^2:
+M204 S1000.00000 Z0.00000
+;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
+M205 X0.05000 Z-1.00000 S0.00000
+;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+M203 X500.00000 Y200.00000 Z200.00000 A500.00000 B200.00000 C200.00000
+;Optional arm solution specific settings:
+M665 L310.0000 R171.0000
+;Motor currents:
+M907 X1.50000 Y1.50000 Z1.50000 E1.80000 
+;Home offset (mm):
+M206 X0.00 Y0.00 Z0.00
+;Trim (mm):
+M666 X-2.717 Y-4.621 Z-1.371
+;Max Z
+M665 Z212.630
+;E Steps per mm:
+M92 E980.0000
+;E Filament diameter:
+M200 D0.0000
+;E retract length, feedrate, zlift length, feedrate:
+M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000
+;E retract recover length, feedrate:
+M208 S0.0000 F480.0000
+;E acceleration mm/sec^2:
+M204 E500.0000
+;PID settings:
+M301 S0 P10.0000 I0.3000 D200.0000
+;PID settings:
+M301 S1 P10.0000 I0.3000 D200.0000
+;Steps per unit:
+M92 X200.00000 Y200.00000 Z200.00000
+;Acceleration mm/sec^2:
+M204 S1000.00000 Z0.00000
+;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
+M205 X0.05000 Z-1.00000 S0.00000
+;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+M203 X500.00000 Y200.00000 Z200.00000 A500.00000 B200.00000 C200.00000
+;Optional arm solution specific settings:
+M665 L310.0000 R171.0000
+;Motor currents:
+M907 X1.50000 Y1.50000 Z1.50000 E1.80000 
+;Home offset (mm):
+M206 X0.00 Y0.00 Z0.00
+;Trim (mm):
+M666 X-2.717 Y-4.621 Z-1.371
+;Max Z
+M665 Z212.730
+;E Steps per mm:
+M92 E980.0000
+;E Filament diameter:
+M200 D0.0000
+;E retract length, feedrate, zlift length, feedrate:
+M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000
+;E retract recover length, feedrate:
+M208 S0.0000 F480.0000
+;E acceleration mm/sec^2:
+M204 E500.0000
+;PID settings:
+M301 S0 P10.0000 I0.3000 D200.0000
+;PID settings:
+M301 S1 P10.0000 I0.3000 D200.0000
+;Steps per unit:
+M92 X200.00000 Y200.00000 Z200.00000
+;Acceleration mm/sec^2:
+M204 S1000.00000 Z0.00000
+;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
+M205 X0.05000 Z-1.00000 S0.00000
+;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+M203 X500.00000 Y200.00000 Z200.00000 A500.00000 B200.00000 C200.00000
+;Optional arm solution specific settings:
+M665 L310.0000 R171.0000
+;Motor currents:
+M907 X1.50000 Y1.50000 Z1.50000 E1.80000 
+;Home offset (mm):
+M206 X0.00 Y0.00 Z0.00
+;Trim (mm):
+M666 X-2.717 Y-4.621 Z-1.371
+;Max Z
+M665 Z212.800
+;E Steps per mm:
+M92 E980.0000
+;E Filament diameter:
+M200 D0.0000
+;E retract length, feedrate, zlift length, feedrate:
+M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000
+;E retract recover length, feedrate:
+M208 S0.0000 F480.0000
+;E acceleration mm/sec^2:
+M204 E500.0000
+;PID settings:
+M301 S0 P10.0000 I0.3000 D200.0000
+;PID settings:
+M301 S1 P10.0000 I0.3000 D200.0000
+;Steps per unit:
+M92 X200.00000 Y200.00000 Z200.00000
+;Acceleration mm/sec^2:
+M204 S1000.00000 Z0.00000
+;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
+M205 X0.05000 Z-1.00000 S0.00000
+;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+M203 X500.00000 Y200.00000 Z200.00000 A500.00000 B200.00000 C200.00000
+;Optional arm solution specific settings:
+M665 L310.0000 R171.0000
+;Motor currents:
+M907 X1.50000 Y1.50000 Z1.50000 E1.80000 
+;Home offset (mm):
+M206 X0.00 Y0.00 Z0.00
+;Trim (mm):
+M666 X-2.717 Y-4.621 Z-1.371
+;Max Z
+M665 Z212.900
+;E Steps per mm:
+M92 E980.0000
+;E Filament diameter:
+M200 D0.0000
+;E retract length, feedrate, zlift length, feedrate:
+M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000
+;E retract recover length, feedrate:
+M208 S0.0000 F480.0000
+;E acceleration mm/sec^2:
+M204 E500.0000
+;PID settings:
+M301 S0 P10.0000 I0.3000 D200.0000
+;PID settings:
+M301 S1 P10.0000 I0.3000 D200.0000
+;Steps per unit:
+M92 X200.00000 Y200.00000 Z200.00000
+;Acceleration mm/sec^2:
+M204 S1000.00000 Z0.00000
+;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
+M205 X0.05000 Z-1.00000 S0.00000
+;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+M203 X500.00000 Y200.00000 Z200.00000 A500.00000 B200.00000 C200.00000
+;Optional arm solution specific settings:
+M665 L310.0000 R171.0000
+;Motor currents:
+M907 X1.50000 Y1.50000 Z1.50000 E1.80000 
+;Home offset (mm):
+M206 X0.00 Y0.00 Z0.00
+;Trim (mm):
+M666 X-2.717 Y-4.621 Z-1.371
+;Max Z
+M665 Z212.950
+;E Steps per mm:
+M92 E980.0000
+;E Filament diameter:
+M200 D0.0000
+;E retract length, feedrate, zlift length, feedrate:
+M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000
+;E retract recover length, feedrate:
+M208 S0.0000 F480.0000
+;E acceleration mm/sec^2:
+M204 E500.0000
+;PID settings:
+M301 S0 P10.0000 I0.3000 D200.0000
+;PID settings:
+M301 S1 P10.0000 I0.3000 D200.0000
+;Steps per unit:
+M92 X200.00000 Y200.00000 Z200.00000
+;Acceleration mm/sec^2:
+M204 S1000.00000 Z0.00000
+;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
+M205 X0.05000 Z-1.00000 S0.00000
+;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+M203 X500.00000 Y200.00000 Z200.00000 A500.00000 B200.00000 C200.00000
+;Optional arm solution specific settings:
+M665 L310.0000 R171.0000
+;Motor currents:
+M907 X1.50000 Y1.50000 Z1.50000 E1.80000 
+;Home offset (mm):
+M206 X0.00 Y0.00 Z0.00
+;Trim (mm):
+M666 X-2.717 Y-4.621 Z-1.371
+;Max Z
+M665 Z213.000
+;E Steps per mm:
+M92 E980.0000
+;E Filament diameter:
+M200 D0.0000
+;E retract length, feedrate, zlift length, feedrate:
+M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000
+;E retract recover length, feedrate:
+M208 S0.0000 F480.0000
+;E acceleration mm/sec^2:
+M204 E500.0000
+;PID settings:
+M301 S0 P10.0000 I0.3000 D200.0000
+;PID settings:
+M301 S1 P10.0000 I0.3000 D200.0000
+;Steps per unit:
+M92 X200.00000 Y200.00000 Z200.00000
+;Acceleration mm/sec^2:
+M204 S1000.00000 Z0.00000
+;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
+M205 X0.05000 Z-1.00000 S0.00000
+;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+M203 X500.00000 Y200.00000 Z200.00000 A500.00000 B200.00000 C200.00000
+;Optional arm solution specific settings:
+M665 L310.0000 R171.0000
+;Motor currents:
+M907 X1.50000 Y1.50000 Z1.50000 E1.80000 
+;Home offset (mm):
+M206 X0.00 Y0.00 Z0.00
+;Trim (mm):
+M666 X-2.717 Y-4.621 Z-1.371
+;Max Z
+M665 Z213.100
+;E Steps per mm:
+M92 E980.0000
+;E Filament diameter:
+M200 D0.0000
+;E retract length, feedrate, zlift length, feedrate:
+M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000
+;E retract recover length, feedrate:
+M208 S0.0000 F480.0000
+;E acceleration mm/sec^2:
+M204 E500.0000
+;PID settings:
+M301 S0 P10.0000 I0.3000 D200.0000
+;PID settings:
+M301 S1 P10.0000 I0.3000 D200.0000
+;Steps per unit:
+M92 X200.00000 Y200.00000 Z200.00000
+;Acceleration mm/sec^2:
+M204 S1000.00000 Z0.00000
+;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
+M205 X0.05000 Z-1.00000 S0.00000
+;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+M203 X500.00000 Y200.00000 Z200.00000 A500.00000 B200.00000 C200.00000
+;Optional arm solution specific settings:
+M665 L310.0000 R171.0000
+;Motor currents:
+M907 X1.50000 Y1.50000 Z1.50000 E1.80000 
+;Home offset (mm):
+M206 X0.00 Y0.00 Z0.00
+;Trim (mm):
+M666 X-2.717 Y-4.621 Z-1.371
+;Max Z
+M665 Z213.100
+;E Steps per mm:
+M92 E980.0000
+;E Filament diameter:
+M200 D0.0000
+;E retract length, feedrate, zlift length, feedrate:
+M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000
+;E retract recover length, feedrate:
+M208 S0.0000 F480.0000
+;E acceleration mm/sec^2:
+M204 E500.0000
+;PID settings:
+M301 S0 P10.0000 I0.3000 D200.0000
+;PID settings:
+M301 S1 P10.0000 I0.3000 D200.0000
+;Steps per unit:
+M92 X200.00000 Y200.00000 Z200.00000
+;Acceleration mm/sec^2:
+M204 S1000.00000 Z0.00000
+;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
+M205 X0.05000 Z-1.00000 S0.00000
+;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
+M203 X500.00000 Y200.00000 Z200.00000 A500.00000 B200.00000 C200.00000
+;Optional arm solution specific settings:
+M665 L310.0000 R171.0000
+;Motor currents:
+M907 X1.50000 Y1.50000 Z1.50000 E1.80000 
+;Home offset (mm):
+M206 X0.00 Y0.00 Z0.00
+;Trim (mm):
+M666 X-2.717 Y-4.621 Z-1.371
+;Max Z
+M665 Z212.700
+;E Steps per mm:
+M92 E980.0000
+;E Filament diameter:
+M200 D0.0000
+;E retract length, feedrate, zlift length, feedrate:
+M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000
+;E retract recover length, feedrate:
+M208 S0.0000 F480.0000
+;E acceleration mm/sec^2:
+M204 E500.0000
+;PID settings:
+M301 S0 P10.0000 I0.3000 D200.0000
+;PID settings:
+M301 S1 P10.0000 I0.3000 D200.0000
