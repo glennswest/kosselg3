@@ -2,7 +2,7 @@ include <configuration.scad>;
 use <MCAD/nuts_and_bolts.scad>;
 use <microswitch.scad>;
 
-thickness = 9;  // 1mm thicker than linear rail.
+thickness = 6;  // 1mm thicker than linear rail.
 width = 20;  // Same as vertical extrusion.
 height = 15;
 

@@ -1,0 +1,19 @@
+
+
+================
+1 2 3 4 5 6 7 8
+===============
+
+Screws up
+
+1 blue              - Thermistor
+2 blue white        - Thermistor`
+3 orange            - Ground - Sensor
+4 orange white      - 5V - Sensor
+5 green             - Sensor Value/Users/glennwest/3dprinter/kosselg1 
+6 green white
+7 brown             - Fan Red
+8 brown white       - Fan Black
+
+m119 endstop status
+

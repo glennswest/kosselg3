@@ -20,11 +20,3 @@ rotate([0,0,90]) {
 
 }
 
-module keystone_mount()
-{
-	rotate([0,0,0]) keystone();
-
-}
-
-
-keystone_mount();

@@ -14,7 +14,9 @@ module vslot(length=50, sections=1, finish, cutout=0) {
 	cutcorner = [[8.20,8.20],[6.57,8.20],[6.57,7.66],[7.66,6.57],[8.20,6.57]];
 
 	module profile() {
+        
 		difference() {
+         
 			translate([0,0,length/2])
 			roundedBox(20 * sections, 20, length, 1.5);
          if (cutout == 0){
@@ -46,10 +48,14 @@ module vslot(length=50, sections=1, finish, cutout=0) {
 		}
 	}
 
-	if(finish)
-		color(finish) profile();
-	else
-		color(vslot_color) profile();
+      if (cutout == 1){
+		 translate([0,0,length/2]) box(((20 * sections)+.2), 20.2, length);
+          } else {
+	     if(finish)
+		   color(finish) profile();
+	     else
+		   color(vslot_color) profile();
+         }
 }
 
 module vslot20x20(length, finish) { vslot(length, 1, finish); }
@@ -69,7 +75,7 @@ module vslot20x80_cutout(length, finish) { vslot(length, 4, finish, 1); }
 module vslot_test() {
 	$fn = 32;
 
-	
+	vslot20x20(100);
 
 	translate([0, 40, 0])
 	vslot20x40(100, vslot_color_black);
@@ -83,6 +89,6 @@ module vslot_test() {
     translate([0,140,0]) vslot20x20_cutout(100);
 }
 
-//vslot_test();
+vslot_test();
 
 
