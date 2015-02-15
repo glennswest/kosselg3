@@ -29,4 +29,17 @@ module keystone_mount()
     translate([-5,-9.9+4.8,23]) rotate([270,270,0]) keystone();
 }
 
+
+module keystone_mount_bottom()
+{
+   difference(){
+       keystone_mount_body();
+       keystone_mount_cuts();
+       }
+    translate([-5,-0.3,23]) rotate([270,270,0]) keystone();
+}
+
+
 keystone_mount();
+
+translate([0,0,50]) keystone_mount_bottom();
