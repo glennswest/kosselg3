@@ -30,9 +30,9 @@ module base() {
 			//translate([0, 0, base_thickness]) rounded_base(w+rounded-wall_thickness, l+rounded-wall_thickness, rounded, ht);
 		}
 
-		for(p= holes) {
-			//translate([p[0],p[1],base_thickness]) cylinder(r=standoff_od/2, h=standoff_ht);
-		}
+		//for(p= holes) {
+		//	%translate([p[0],p[1],base_thickness+3]) cylinder(r=standoff_od/2, h=standoff_ht);
+		//}
 	}
 }
 
@@ -58,6 +58,8 @@ module case_body() {
 		
 		// tabs
 		rotate([90,0,0]) translate([0, -10, -33]) tab();
+        rotate([90,0,90]) translate([10,-10,-2.5]) tab();
+        rotate([90,0,90]) translate([-30,-10,-2.5]) tab();
 		//translate([0, -l/2-11, 0]) tab();
 	}
 }

@@ -4,7 +4,7 @@
 // Based upon: https://github.com/jcrocholl/kossel/blob/master/carriage.scad by jcrocholl
 // visit: http://www.schlotzz.com
 
-
+use <MCAD/nuts_and_bolts.scad>;
 // Increase this if your slicer or printer make holes too tight.
 extra_radius = 0.4;
 
@@ -72,15 +72,19 @@ module carriage()
 								translate([-1 - clearance * 2, y + n, horn_thickness / 2 + 1])
 									cylinder(r = 1, h = horn_thickness - 2, center = true, $fn = 16);
 
-							translate([3.25 - clearance, y, horn_thickness / 2 + 1])
-								cube([5, 14, horn_thickness - 2], center = true);
+							translate([3.25 - clearance, y, horn_thickness / 2 + 1+5])
+								cube([5, 14, horn_thickness - 2+5], center = true);
 
-							translate([7.5, y, horn_thickness / 2 + 1])
-								cube([2, 14, horn_thickness - 2], center = true);
+							translate([7.5, y, horn_thickness / 2 + 1+5])
+								cube([2, 14, horn_thickness - 2+5], center = true);
+                            
 						}
 					}
 				}
-
+                translate([8,-12,17]) rotate([180,90,0]) boltHole(3,length=20);
+                translate([2,-12,17]) rotate([180,90,0]) nutHole(3);
+                translate([8,12,17]) rotate([180,90,0]) boltHole(3,length=20);
+                translate([2,12,17]) rotate([180,90,0]) nutHole(3);
 				// tooth cutout
 				for (x = [1.125 - 0.300 - clearance, 5.375 + 0.30 - clearance])
 				{

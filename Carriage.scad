@@ -9,19 +9,24 @@ armspace = 50;
 module arm_mount()
 {
     difference(){
-       cylinder(r=6.5,h=8);
-       translate([0,0,4]) rotate([0,180,0]) cylinder(r=5.1,h=4.1);
-       boltHole(3,length=8);
-       translate([0,0,6]) nutHole(3);
+       cylinder(r=6.5,h=4+12.5); // Mag stack is 12.5 + 4 for base height
+       translate([0,0,12.4]) rotate([0,180,0]) cylinder(r=5.1,h=12.5);
+       translate([0,7,11]) rotate([90,90,0]) boltHole(3,length=15);
+       translate([0,7,3]) rotate([90,90,0]) boltHole(3,length=15); 
+       
        } 
     
 }
 
 
  translate([-armspace/2+5,32,0]) cube([armspace-10,10,8]);
- translate([-armspace/2,38,0]) arm_mount();
- translate([ armspace/2,38,0]) arm_mount();
-
+ translate([-armspace/2,48,1.5]) rotate([90,0,0]) arm_mount();
+ translate([ armspace/2,48,1.5]) rotate([90,0,0]) arm_mount();
+ difference(){
+     translate([-3.5,35,-14]) cube([7,7,14]);
+     // Elastic Mount
+     translate([-3.5+3.5,34.5+4,-13]) boltHole(3,length=23,$fn=128); 
+ }
 
 difference(){
 	translate([0,14,3])
@@ -36,6 +41,7 @@ difference(){
         difference(){
             translate([0,-verti/2-7,4]) rotate([270,90,0]) cylinder(r=4,h=10);
             translate([0,-verti/2-5.1,4]) rotate([270,90,0]) boltHole(3,length=20);
+            
             }
 difference(){
 	difference(){
@@ -50,6 +56,7 @@ difference(){
 				cube([5.5,3,30], center=true);
                
 	}
+ 
 //hueco rodes
 	union(){
 		translate([(hori/2)-1,-(verti/2),0])
