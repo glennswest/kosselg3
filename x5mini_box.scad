@@ -12,8 +12,8 @@ standoff_id= 3-0.5;
 standoff_od= standoff_id+(2.1*2);
 hole_dia= 3;
 
-holesepl= 88.88;
-holesepw= 42.96;
+holesepl= 90.00;
+holesepw= 44.0;
 // [ [x1, y1], [x2, y2],..., ] offsets from edges
 holes= [ [-holesepw/2, -holesepl/2], [holesepw/2, holesepl/2], [-holesepw/2, holesepl/2], [holesepw/2, -holesepl/2] ];
 
