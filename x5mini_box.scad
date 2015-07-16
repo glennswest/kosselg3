@@ -87,9 +87,15 @@ module standoff()
 
 }
 
-case();
-translate([45,0,0]) standoff();
-translate([45,10,0]) standoff();
-translate([45,20,0]) standoff();
-translate([45,30,0]) standoff();
+module thecase()
+{
+    case();
+    translate([45,0,0]) standoff();
+    translate([45,10,0]) standoff();
+    translate([45,20,0]) standoff();
+    translate([45,30,0]) standoff();
+}
+        
+rotate([180,0,0]) translate([0,0,-ht]) thecase();        
+        
 //% translate([-w/2, -l/2, standoff_ht+base_thickness]) cube(size=[w, l, board_thickness], center=false);
