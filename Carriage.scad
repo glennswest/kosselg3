@@ -19,14 +19,26 @@ module arm_mount()
 }
 
 
- translate([-armspace/2+5,32,0]) cube([armspace-10,10,8]);
- translate([-armspace/2,48,1.5]) rotate([90,0,0]) arm_mount();
- translate([ armspace/2,48,1.5]) rotate([90,0,0]) arm_mount();
+
+    
+    
+ translate([-10,32,0]) cube([20,10,8]);
  difference(){
-     translate([-3.5,35,-14]) cube([7,7,14]);
+    translate([-25,32,3]) cube([50,10,5]);
+    translate([-52/2,38,1.5]) rotate([90,0,90]) cylinder(r=6.5,h=18);
+    translate([ 52/2,38,1.5]) rotate([90,0,-90]) cylinder(r=6.5,h=18); 
+    }
+  difference(){    
+    translate([-9,42,-2]) cube([18,3,10]);
+    translate([0,45,4]) rotate([270,0,180]) boltHole(3,length=8);   
+    }
+ translate([-armspace/2,38,1.5]) rotate([90,0,90]) arm_mount();
+ translate([ armspace/2,38,1.5]) rotate([90,0,-90]) arm_mount();
+ //difference(){
+ //    translate([-3.5,35,-14]) cube([7,7,14]);
      // Elastic Mount
-     translate([-3.5+3.5,34.5+4,-13]) boltHole(3,length=23,$fn=128); 
- }
+ //    translate([-3.5+3.5,34.5+4,-13]) boltHole(3,length=23,$fn=128); 
+ //}
 
 difference(){
 	translate([0,14,3])
@@ -38,14 +50,19 @@ difference(){
 	translate([0,0,-30])
 		cube([100,100,5], center=true);
 }
-        difference(){
-            translate([0,-verti/2-7,4]) rotate([270,90,0]) cylinder(r=4,h=10);
-            translate([0,-verti/2-5.1,4]) rotate([270,90,0]) boltHole(3,length=20);
-            
-            }
+
+// Mag Mount
+//        difference(){
+//            translate([0,-verti/2-7,4]) rotate([270,90,0]) cylinder(r=4,h=10);
+//            translate([0,-verti/2-5.1,4]) rotate([270,90,0]) boltHole(3,length=20);
+//              }
 difference(){
 	difference(){
 		roundedRect(size = [hori+10,verti+10,8], radius = 5);
+        linear_extrude(height = 0.5){ 
+           translate([27,0,0.4]) rotate([0,180,0]) 
+            text("V3", size="4", font ="Lobster Two");
+           }
 		translate([-11,2,0])
 			cube([2,24,30], center=true);
 		translate([-20,14,0])
